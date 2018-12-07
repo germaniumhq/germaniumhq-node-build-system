@@ -1,5 +1,7 @@
 germaniumBuildSystemPipeline(
     platformImages: [
-        'germaniumhq/node:8': 'node8'
+        [
+            "node8": "germaniumhq/node:8",
+        ]
     ])
 
